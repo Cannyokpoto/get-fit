@@ -9,18 +9,18 @@ const NewsLetterStyles = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 100px;
     border-radius: 15px;
-    background-color: var(--mediumSlateBlue);
+    background: var(--planCard);
     gap: 15px;
 
     h2{
             font-size: 40px;
-            color: var(--lightBlue_1);
+            color: var(--white);
         }
 
         p{
-            color: var(--lightBlue_1);
+            color: var(--white);
             font-size: 15px;
         }
 
@@ -30,15 +30,15 @@ const NewsLetterStyles = styled.div`
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             gap: 10px;
-            background-color: var(--mediumSlateBlue);
+            background-color: transparent;
 
 
             input{
-                background-color: var(--lightBlue_1);
+                background-color: var(--white);
                 font-size: 15px;
-                width: 65%;
+                width: 75%;
                 height: 100%;
                 padding: 10px;
                 border-radius: 4px;
@@ -46,8 +46,8 @@ const NewsLetterStyles = styled.div`
         }
 
         button{
-            background-color: var(--lightBlue_1);
-            color: var(--darkBlue_2);
+            background-color: var(--white);
+            color: var(--black);
             width: 20%;
             height: 100%;
             padding: 2px;
@@ -73,16 +73,16 @@ const NewsLetterStyles = styled.div`
         justify-content: center;
         margin-top: 100px;
         border-radius: 15px;
-        background-color: var(--mediumSlateBlue);
+        background: var(--planCard);
         gap: 15px;
 
     h2{
             font-size: 25px;
-            color: var(--lightBlue_1);
+            color: var(--white);
         }
 
         p{
-            color: var(--lightBlue_1);
+            color: var(--white);
             font-size: 15px;
         }
 
@@ -94,11 +94,11 @@ const NewsLetterStyles = styled.div`
             align-items: center;
             justify-content: center;
             gap: 10px;
-            background-color: var(--mediumSlateBlue);
+            background-color: var(--planCard);
 
 
             input{
-                background-color: var(--lightBlue_1);
+                background-color: var(--white);
                 font-size: 15px;
                 width: 100%;
                 height: 40px;
@@ -108,8 +108,8 @@ const NewsLetterStyles = styled.div`
         }
 
         button{
-            background-color: var(--lightBlue_1);
-            color: var(--darkBlue_2);
+            background-color: var(--white);
+            color: var(--black);
             width: 30%;
             height: 40px;
             padding: 2px;

@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import ThemeList from '../Data/ThemeList';
 
 const ContactStyles = styled.div`
 
@@ -27,13 +26,9 @@ const ContactStyles = styled.div`
         
     h2{
             font-size: 40px;
-            color: ${({ theme: { theme } }) =>
-            theme === ThemeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_1)'};
         }
 
         p{
-            color: ${({ theme: { theme } }) =>
-            theme === ThemeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_2)'};
             font-size: 15px;
         }
     }
@@ -57,8 +52,6 @@ const ContactStyles = styled.div`
                 align-items: flex-start;
                 justify-content: center;
                 font-size: 15px;
-                color: ${({ theme: { theme } }) =>
-                theme === ThemeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_2)'};
             }
 
 
@@ -70,8 +63,6 @@ const ContactStyles = styled.div`
             align-items: flex-start;
             justify-content: center;
             font-size: 15px;
-            color: ${({ theme: { theme } }) =>
-            theme === ThemeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_2)'};
 
 
             input{
@@ -143,13 +134,9 @@ const ContactStyles = styled.div`
         
     h2{
             font-size: 25px;
-            color: ${({ theme: { theme } }) =>
-            theme === ThemeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_1)'};
         }
 
         p{
-            color: ${({ theme: { theme } }) =>
-            theme === ThemeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_2)'};
             font-size: 15px;
         }
     }
@@ -173,8 +160,6 @@ const ContactStyles = styled.div`
                 align-items: flex-start;
                 justify-content: center;
                 font-size: 15px;
-                color: ${({ theme: { theme } }) =>
-                theme === ThemeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_2)'};
             }
 
 
@@ -186,8 +171,6 @@ const ContactStyles = styled.div`
             align-items: flex-start;
             justify-content: center;
             font-size: 15px;
-            color: ${({ theme: { theme } }) =>
-            theme === ThemeList.light ? 'var(--darkBlue_2)' : 'var(--lightBlue_2)'};
 
 
             input{

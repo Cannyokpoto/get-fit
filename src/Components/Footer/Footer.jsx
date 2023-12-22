@@ -16,7 +16,7 @@ const FooterStyles = styled.footer`
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: var(--darkBlue_3);
+    background-color: var(--black);
     padding: 20px 0 20px 0;
     color: var(--white);
 
@@ -46,7 +46,7 @@ const FooterStyles = styled.footer`
         }
 
         &:hover{
-            color: var(--mediumSlateBlue);
+            color: var(--orange);
         }
     }
 }
@@ -68,7 +68,7 @@ const FooterStyles = styled.footer`
     hr{
         width: 80vw;
         height: 1px;
-        background-color: var(--mediumSlateBlue);
+        background: var(--caloryCard);
         opacity: 0.3;
     }
 
@@ -77,7 +77,7 @@ const FooterStyles = styled.footer`
         opacity: .7;
 
         span{
-            color: var(--mediumSlateBlue);
+            color: var(--orange);
             opacity: 1;
         }
     }
@@ -141,7 +141,7 @@ const FooterStyles = styled.footer`
         hr{
             width: 90%;
             height: 1px;
-            background-color: var(--mediumSlateBlue);
+            background-color: var(--caloryCard);
         }
     
         small{
@@ -153,7 +153,7 @@ const FooterStyles = styled.footer`
                 font-size: 14px;
                 opacity: 1;
                 font-weight: 600;
-                color: var(--mediumSlateBlue);
+                color: var(--orange);
             }
         }
 }
@@ -164,7 +164,7 @@ function Footer(){
 
         return(
             <FooterStyles className="my-footer">
-                <img src={ PHOTOS.LOGO } alt="logo" />
+                <img src={ PHOTOS.LOGO_W } alt="logo" />
                 <ul className="quick-links">
                     <li><Link to="/home" >Home</Link></li>
                     <li><Link to="/services">Services</Link></li>

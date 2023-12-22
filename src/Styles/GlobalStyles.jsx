@@ -7,12 +7,10 @@ import '@fontsource/poppins/500.css';
 import '@fontsource/poppins/600.css';
 import '@fontsource/poppins/700.css';
 import '@fontsource/poppins/800.css';
-import ThemeList from "../Components/Data/ThemeList";
 
 const GlobalStyles = createGlobalStyle `
 
 :root{
-  /* colors */
   --darkBlue_1: #3B447A;
   --darkBlue_2: #222B5F;
   --darkBlue_3: #0A0F19;
@@ -23,14 +21,17 @@ const GlobalStyles = createGlobalStyle `
   --white: #FFFFFF;
   --black: #000000;
 
-  /* others */
-    --header-height: 70px;
+  --lightgray: #D9D9D9;
+  --gray: #9c9c9c;
+  --orange: #f48915;
+  --darkGrey: #464D53;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --appColor:  #3c3f45;
 }
 
 
 body{
-  background-color: ${({ theme: { theme } }) =>
-    theme === ThemeList.light ? 'var(--lightBlue_1)' : 'var(--darkBlue_3)'};
   font-family: 'Poppins', sans-serif;
 }
 

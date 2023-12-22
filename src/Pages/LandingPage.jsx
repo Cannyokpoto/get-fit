@@ -2,12 +2,12 @@ import React from 'react'
 import Header from '../Components/Header/Header'
 import Hero from '../Components/Hero/Hero'
 import styled from "styled-components";
-import Services from '../Components/Services/Services';
-import About from '../Components/About/About';
-import Team from '../Components/Team/Team';
+import WhyUs from '../Components/WhyUs/WhyUs';
+import Plan from '../Components/Plan/Plan';
 import NewsLetter from '../Components/NewsLetter/NewsLetter';
-import Contact from '../Components/Contact/Contact';
 import Footer from '../Components/Footer/Footer';
+import Programs from '../Components/Programs/Programs';
+import Testimonials from '../Components/Testimonials/Testimonials';
 
 const LandingPageStyles = styled.div`
 
@@ -24,11 +24,11 @@ function LandingPage() {
     <LandingPageStyles>
       <Header />
       <Hero />
-      <Services />
-      <About />
-      <Team />
+      <Programs />
+      <WhyUs />
+      <Plan />
+      <Testimonials />
       <NewsLetter />
-      <Contact />
       <Footer />
     </LandingPageStyles>
   )

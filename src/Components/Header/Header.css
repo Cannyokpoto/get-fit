@@ -3,13 +3,6 @@
 
 
 :root{
-    --energyRed: #FF7235;
-    --energyDarkRed: #540808;
-    --energyBlack: #000000;
-    --energyDarkBlue: #263640;
-    --energyGrey: #929A9F;
-    --energyLightGrey: #F5F8FA;
-    --energyWhite: #FFFFFF;
     --boxShadow: 5px 5px 50px 5px rgb(245, 248, 250);
 
     --darkBlue_1: #3B447A;
@@ -21,6 +14,14 @@
     --lightBlue_2: #ADBDE3;
     --white: #FFFFFF;
     --black: #000000;
+
+    --lightgray: #D9D9D9;
+    --gray: #9c9c9c;
+    --orange: #f48915;
+    --darkGrey: #464D53;
+    --caloryCard: #656565;
+    --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+    --appColor:  #3c3f45;
 }
 
 *{
@@ -48,9 +49,7 @@ body{
 
 /* NEW ROOT */
 
-:root{
-   
-}
+
 
 
 /* header{
@@ -113,6 +112,8 @@ header .desktopNav .myNav li{
 
 header .desktopNav .myNav li a{
     font-size: 17px;
+    color: var(--black);
+    
     /* color: var(--energyBlack);
     font-weight: 700;
     text-decoration: none;
@@ -128,7 +129,7 @@ header .desktopNav .myNav li a::after{
     position: absolute;
     bottom: -10px;
     left: 0;
-    background-color: var(--mediumSlateBlue);
+    background-color: var(--black);
     transition: all .3s;
 
 

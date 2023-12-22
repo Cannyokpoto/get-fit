@@ -3,16 +3,25 @@ const PHOTOS = {
     
 
     //EXTRAS
-    ABOUT: require("./about.png"),
+    Why: require("./why us.png"),
     HERO: require("./hero.png"),
-    rareFave: require("./rare fave.png"),
-    LOGO:    require("./rare logo.png"),
-    TEAM1:  require("./team1.avif"),
-    TEAM2:  require("./team2.avif"),
-    TEAM3:  require("./team3.avif"),
-    TEAM4:  require("./team4.avif"),
-    TEAM5:  require("./team5.avif"),
-    TEAM6:  require("./team6.avif"),
+    HERO2: require("./hero2.png"),
+    LOGO:   require("./gf logo.png"),
+    LOGO_W:   require("./gf logo w.png"),
+    Flame:  require("./flame.png"),
+    Weight:  require("./weight.png"),
+    Dumbbell:  require("./dumbbell.png"),
+    Running:  require("./running.png"),
+    RightArrow:  require("./rightArrow.png"),
+    checked:  require("./checked.png"),
+    healthCare:  require("./health-care.png"),
+    crown:  require("./crown.png"),
+    WhiteTick:  require("./whiteTick.png"),
+    crossFit:  require("./crossfit.png"),
+    test1:  require("./test1.png"),
+    test2:  require("./test2.jpg"),
+    test3:  require("./test3.png"),
+    test4:  require("./test4.png"),    
 };
 
 export default PHOTOS;
