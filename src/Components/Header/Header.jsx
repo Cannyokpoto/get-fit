@@ -104,14 +104,16 @@ const HeaderStyles = styled.header`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    padding: 0;
+    
 
         .logo{
         width: 100%;
         height: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding: 0 30px 0 20px;
 
         img{
             width: 30%;

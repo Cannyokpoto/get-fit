@@ -104,7 +104,7 @@ const ProgramsStyles = styled.div`
             margin-top: 100px;
 
     h2{
-        width: 70vw;
+        width: 100vw;
         text-align: center;
         font-size: 25px;
 
@@ -120,7 +120,7 @@ const ProgramsStyles = styled.div`
             flex-direction: column;
             align-items: center;
             gap: 20px;
-            margin-top: 70px;
+            margin-top: 30px;
 
             .program{
                 width: 90%;
@@ -153,7 +153,7 @@ const ProgramsStyles = styled.div`
                     .icon{
                         color: var(--white);
                         width: 100%;
-                        height: 40px;
+                        height: 30px;
                     }
                 }
 

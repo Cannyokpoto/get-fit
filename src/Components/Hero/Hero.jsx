@@ -167,7 +167,7 @@ const HeroStyles = styled.div`
 
 
         .hype{
-            width: 70%;
+            width: 100%;
             height: 40px;
             display: flex;
             flex-direction: row;
@@ -264,6 +264,7 @@ const HeroStyles = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
 
         .hero-blur{
             width: 20%;
@@ -284,7 +285,8 @@ const HeroStyles = styled.div`
             height: 30%;
             position: absolute;
             /* right: 450px; */
-            top: 110px;
+            /* top: 110px; */
+            bottom: 100px;
             z-index: -3;
         }
     }
@@ -323,11 +325,10 @@ function Hero(){
                     <div className="blur hero-blur"></div>
                     <img src={PHOTOS.HERO} alt=""/>
                     <motion.img src={PHOTOS.HERO2} alt="" 
-                        initial = {{ left: '97%'}}
+                        initial = {{ left: '2%'}}
                         whileInView = {{left: '52%'}}
                         transition = {{...transition, type: 'tween'}}
                         className="hero2" 
-                    
                     />
                 </div>
             </HeroStyles>

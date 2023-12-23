@@ -138,7 +138,7 @@ const PlanStyles = styled.div`
         margin-top: 100px;
 
     h1{
-        width: 70vw;
+        width: 100vw;
         text-align: center;
         font-size: 25px;
 
@@ -167,7 +167,7 @@ const PlanStyles = styled.div`
 
             >img{
                 width: 10%;
-                height: 40px;
+                height: 30px;
             }
 
             h3{
@@ -198,7 +198,7 @@ const PlanStyles = styled.div`
 
                     img{
                         width: 7%;
-                        height: 25px;
+                        height: 20px;
                     }
 
                     span{

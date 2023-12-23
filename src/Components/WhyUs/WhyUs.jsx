@@ -111,10 +111,6 @@ const WhyStyles = styled.div`
         align-items: center;
         gap: 20px;
 
-        span{
-            color: var(--orange);
-        }
-
         h1{
             font-size: 25px;
         }
@@ -140,7 +136,7 @@ const WhyStyles = styled.div`
 
                 img{
                     width: 10%;
-                    height: 100%;
+                    height: 80%;
                 }
 
                 p{
@@ -162,7 +158,6 @@ function WhyUs(){
                 </div>
 
                 <div className="right-hand-side">
-                    <span>Some Reasons</span>
                     <h1>WHY CHOOSE US?</h1>
                     <div className="reasons">
                         <div className="reason">

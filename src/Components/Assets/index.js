@@ -6,7 +6,7 @@ const PHOTOS = {
     Why: require("./why us.png"),
     HERO: require("./hero.png"),
     HERO2: require("./hero2.png"),
-    LOGO:   require("./gf logo.png"),
+    LOGO:   require("./gf logo b.png"),
     LOGO_W:   require("./gf logo w.png"),
     Flame:  require("./flame.png"),
     Weight:  require("./weight.png"),

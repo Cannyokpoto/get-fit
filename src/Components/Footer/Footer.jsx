@@ -166,10 +166,11 @@ function Footer(){
             <FooterStyles className="my-footer">
                 <img src={ PHOTOS.LOGO_W } alt="logo" />
                 <ul className="quick-links">
-                    <li><Link to="/home" >Home</Link></li>
-                    <li><Link to="/services">Services</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="hero" spy={true} smooth={true} offset={-200} duration={500}>Home</Link></li>
+                    <li><Link to="programs"  spy={true} smooth={true} offset={-200} duration={500} >Programs</Link></li>
+                    <li><Link to="why-us"  spy={true} smooth={true} offset={-100} duration={500}>Why Us</Link></li>
+                    <li><Link to="plans" spy={true} smooth={true} offset={-100} duration={500}>Plans</Link></li>
+                    <li><Link to="testimonials" spy={true} smooth={true} offset={-100} duration={500}>Testimonials</Link></li>
                 </ul>
                 <div className="socials">
                     <Link to="/"><FaInstagram className="my-soc" /></Link>

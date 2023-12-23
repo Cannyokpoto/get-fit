@@ -165,7 +165,7 @@ const TestimonialsStyles = styled.div`
         align-items: center;
         justify-content: space-between;
         gap: 30px;
-        margin-top: 100px;
+        margin-top: 50px;
 
     .left-hand-side{
         width: 100%;
@@ -179,14 +179,14 @@ const TestimonialsStyles = styled.div`
 
         .border{
             width: 75%;
-            height: 350px;
+            height: 250px;
             border: 2px solid var(--orange);
             position: absolute;
             bottom: 130px;
         }
         .layer{
             width: 75%;
-            height: 350px;
+            height: 250px;
             background: var(--planCard);
             position: absolute;
             bottom: 90px;
@@ -196,7 +196,7 @@ const TestimonialsStyles = styled.div`
 
         img{
             width: 75%;
-            height: 350px;
+            height: 250px;
             position: absolute;
             bottom: 110px;
             right: 40px;
