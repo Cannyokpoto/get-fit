@@ -104,7 +104,7 @@ const ProgramsStyles = styled.div`
             margin-top: 100px;
 
     h2{
-        width: 100vw;
+        width: 100%;
         text-align: center;
         font-size: 25px;
 

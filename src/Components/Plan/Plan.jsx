@@ -138,7 +138,7 @@ const PlanStyles = styled.div`
         margin-top: 100px;
 
     h1{
-        width: 100vw;
+        width: 100%;
         text-align: center;
         font-size: 25px;
 

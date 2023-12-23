@@ -344,7 +344,7 @@ function Testimonials(){
                 <div className="left-hand-side">
                     <motion.div className="border"
                         initial = {{ opacity: 0, left: '-30%'}}
-                        whileInView = {{ opacity: 1, left: '12%'}}
+                        whileInView = {{ opacity: 1, left: '10%'}}
                         transition = {{...transition, type: 'tween'}}
                     ></motion.div>
                     <motion.div className="layer"
