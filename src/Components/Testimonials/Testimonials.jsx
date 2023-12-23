@@ -344,12 +344,12 @@ function Testimonials(){
                 <div className="left-hand-side">
                     <motion.div className="border"
                         initial = {{ opacity: 0, left: '-30%'}}
-                        whileInView = {{ opacity: 1, left: '10%'}}
+                        whileInView = {{ opacity: 1, left: '8%'}}
                         transition = {{...transition, type: 'tween'}}
                     ></motion.div>
                     <motion.div className="layer"
                         initial = {{ opacity: 0, left: '50%'}}
-                        whileInView = {{ opacity: 1, left: '21%'}}
+                        whileInView = {{ opacity: 1, left: '18%'}}
                         transition = {{...transition, type: 'tween'}}
                     ></motion.div>
                     <motion.img src={testimonialsData[selected].image} alt=""
